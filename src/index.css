@@ -190,3 +190,27 @@ body:has(.card[data-color="green"]:hover) {
 .btn.hovered {
   transform: scale(1.1); /* Adjust the scaling factor as needed */
 }
+
+.bg-custom-purple {
+  background-color: #150c21;
+}
+
+.pb-16vh {
+  padding-bottom: 16vh;
+}
+
+.w-custom-840 {
+  width: 840px;
+}
+
+.pt-vh {
+  padding-top: 16vh;
+}
+
+.left-custom-500 {
+  left: 500px;
+}
+
+.custom-width {
+  width: calc((100vw - 840px)/2 + 340px);
+}

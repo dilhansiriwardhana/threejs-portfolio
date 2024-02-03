@@ -1,12 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Home, About, Contact, Projects } from "./pages";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <main className="bg-slate-300/20 h-full ">
       <Router>
         <Navbar />
+        <Analytics />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

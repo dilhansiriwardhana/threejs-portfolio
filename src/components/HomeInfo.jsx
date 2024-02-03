@@ -39,7 +39,7 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="I've been takin number of online courses.."
+      text="Iam Undergraduate Student in Software Engineering"
       link="/about"
       btnText="Learn more"
     />
