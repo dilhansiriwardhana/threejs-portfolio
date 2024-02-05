@@ -46,10 +46,19 @@ const About = () => {
             <div className="description">
               <p>
                 {" "}
-                Dilhan Siriwardhana is a <strong>creative developer</strong>
-                specialized in <strong>WebGL</strong> I worked on many projects
-                for renowned clients to create interactive 3D experiences
-                accessible to everyone from their browser{" "}
+                Hi there! I’m Dilhan.
+                <br></br> I’m a passionate introvert who loves building things
+                with code.
+                <br />
+                My first experience with programming was when I was 18, but I
+                didn’t last long.Years later, I decided to try learning HTML. It
+                was a radically different experience. Learning HTML felt like
+                uncovering the secrets behind web pages. It was hands-on and
+                felt like solving a puzzle. When I decided to build my own
+                website, everything fell into place. HTML became the tool that
+                let me organize information online.Since then, I’ve been honing
+                my skills and learning Javascript. I’m seeking a full-time role
+                where I can help a company achieve their goals.{" "}
               </p>
             </div>
             <div className="social-links">
@@ -143,8 +152,6 @@ const About = () => {
             {/* <span className="gradient"></span> */}
             <img className="sideimage" src={pro} alt="Dilhan" />
           </div>
-
-          {/* <span className="seperator"></span> */}
         </div>
       </section>
     </>

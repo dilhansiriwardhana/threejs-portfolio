@@ -214,3 +214,17 @@ body:has(.card[data-color="green"]:hover) {
 .custom-width {
   width: calc((100vw - 840px)/2 + 340px);
 }
+
+
+@font-face {
+  font-family: GraphikMedium;
+  src: url(./assets/fonts/GraphikMedium.otf);
+}
+@font-face {
+  font-family: GraphikRegular;
+  src: url(./assets/fonts/GraphikRegular.otf);
+}
+@font-face {
+  font-family: GraphikSemibold;
+  src: url(./assets/fonts/GraphikSemibold.otf);
+}

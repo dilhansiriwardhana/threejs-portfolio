@@ -12,7 +12,7 @@
 }
 
 .content {
-    display: flex;
+    
     width: 840px;
     margin-left: auto;
     margin-right: auto;
@@ -124,12 +124,14 @@
 }
 
 .description {
-    max-width: 400px;
+   
     margin-bottom: 2em;
     color: #adaab2;
 }
 
 .namediv {
+    font-family: GraphikSemibold;
+    font-weight: 600;
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
@@ -140,9 +142,10 @@
     font-weight: 700;
 }
 .description p {
+    font-family: GraphikRegular;
     font-size: 1.2rem;
     margin-bottom: 1em;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 .social-links {
