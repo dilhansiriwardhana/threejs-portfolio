@@ -9,7 +9,7 @@ function App() {
   ReactGA.initialize("G-Q6D7HLC77F");
 
   return (
-    <main className="bg-slate-300/20 h-full ">
+    <main>
       <Router>
         <Navbar />
         <Analytics />
