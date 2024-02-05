@@ -44,9 +44,10 @@ const About = () => {
             </div>
 
             <div className="description">
+              <p>Hi there! I’m Dilhan.</p>
+
               <p>
                 {" "}
-                Hi there! I’m Dilhan.
                 <br></br> I’m a passionate introvert who loves building things
                 with code.
                 <br />
@@ -151,6 +152,39 @@ const About = () => {
           <div className="photo">
             {/* <span className="gradient"></span> */}
             <img className="sideimage" src={pro} alt="Dilhan" />
+          </div>
+        </div>
+
+        {/* Projects Grid */}
+
+        <div className="projectgrid">
+          <div className="projectwrapper">
+            <h1 className="projectsmaintitle">
+              This is what i committed my time to
+            </h1>
+            <p className="projectdescription">
+              As I’ve grown as a developer, I’ve worked alongside senior
+              designers and developers who have raised my standards for what’s
+              expected of any web application.Through these experiences, I’ve
+              had the opportunity to create memorable products that are not only
+              enjoyable to use, but are written in code that’s maintainable and
+              easy to understand.
+            </p>
+
+            <div className="project">
+              <div className="projectview">
+                <h1>iPhonerepair.lk Fullstack Website</h1>
+                <a className="projectlink" href="https://iphonerepair.lk">
+                  <img src={iphonesite} alt="" />
+                </a>
+              </div>
+              <div className="projectview">
+                <h1>Dilhancodes 3D Portfolio</h1>
+                <a className="projectlink" href="">
+                  <img src={portfoliosite} alt="" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -22,7 +22,7 @@
  .photo {
     width: 500;
     height: 100%;
-    padding-left: 8rem;
+    padding-left: 18rem;
 }
 
 .sideimage {
@@ -48,7 +48,7 @@
 
 .section-title {
     margin-bottom: 1.5em;
-    font-family: Greycliff;
+    font-family: GraphikSemibold;
     font-weight: 800;
     font-size: 48px;
     letter-spacing: .06em;
@@ -260,63 +260,49 @@ a {
     opacity: .15;
   }
 
-  .projects-title {
-    padding-bottom: 45px;
-    font-family: ;
-    font-weight: 500;
-    font-size: 24px;
-  }
-  
-  .projectsgrid {
-    display: inline-block;
-    position: relative;
-    /* width: 342px;
-    height: 236px; */
-   
-    
+
+
+  /* Project Section */
+
+  .projectgrid {
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16vh;
   }
 
-  .projectbox {
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 50vw;
-   
+  .projectsmaintitle {
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 70px;
   }
 
-   .projectbox a {
-    padding-left: 20px;
-  } 
-
-  .projectbox h1 {
-    margin-top: 10px;
-  } */
-
-  .projectbox {
-    position: relative;
+  .projectdescription {
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 16vh;
   }
-  
-  .projectbox a {
-    position: relative;
-    display: block;
+
+  .projectview h1 {
+    font-family: GraphikMedium;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
   }
-  
-  .projectbox h1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+
+  .projectview img {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-    opacity: 0;
-    transition: opacity 0.3s;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
-  
-  .projectbox a:hover h1 {
-    opacity: 1;
+
+  .projectlink {
+    cursor: pointer;
   }
 
   
