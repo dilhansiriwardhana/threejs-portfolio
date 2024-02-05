@@ -10,6 +10,12 @@ import { Link } from "react-router-dom";
 import Slide from "../components/Slide";
 
 const About = () => {
+  ReactGA.send({
+    hitType: "pageview",
+    page: "/",
+    title: "Home",
+  });
+
   return (
     <>
       <section className="pb-16vh bg-custom-purple text-white ">

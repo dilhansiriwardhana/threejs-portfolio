@@ -12,8 +12,15 @@ import iphonesite from "../assets/iphonelk.png";
 import gsap from "gsap";
 
 import "./Projects.css";
+import ReactGA from "react-ga4";
 
 const Projects = () => {
+  ReactGA.send({
+    hitType: "pageview",
+    page: "/about",
+    title: "Home",
+  });
+
   useEffect(() => {
     const sectionTitle = document.querySelector(".section-title");
 
