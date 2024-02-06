@@ -3,7 +3,7 @@ import { useState, Suspense, useEffect, useRef } from "react";
 import Loader from "../components/Loader";
 import Island from "../models/island";
 import Sky from "../models/Sky";
-import Bird from "../models/Bird";
+
 import Plane from "../models/Plane";
 import HomeInfo from "../components/HomeInfo";
 import Guide from "../components/Guide";
@@ -70,7 +70,6 @@ const Home = () => {
               intensity={1}
             />
 
-            <Bird />
             <Sky isRotating={isRotating} />
 
             <Island
