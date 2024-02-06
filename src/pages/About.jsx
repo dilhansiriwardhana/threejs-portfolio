@@ -99,7 +99,7 @@ const About = () => {
                   </svg>
                 </span>
                 <span className="bubble">
-                  <span className="strong">10k+</span>
+                  <span className="strong">1</span>
                   followers
                 </span>
               </a>
