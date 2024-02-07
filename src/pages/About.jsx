@@ -7,6 +7,7 @@ import handemoji from "../assets/hand-emoji.webp";
 import pro from "../assets/pro.png";
 import portfoliosite from "../assets/portfolio.png";
 import iphonesite from "../assets/iphonelk.png";
+import { Helmet } from "react-helmet-async";
 
 import gsap from "gsap";
 
@@ -33,6 +34,10 @@ const About = () => {
 
   return (
     <>
+      <Helmet>
+        {/* Add JSON-LD script for sitename structured data */}
+        <title>About me | Get Your 3D Website </title>
+      </Helmet>
       <section className="mycontainer">
         <div className="content">
           <div className="alldiv">

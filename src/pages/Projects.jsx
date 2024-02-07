@@ -1,7 +1,11 @@
+import Webappproject from "../components/Webappproject";
+import Threejsproject from "../components/Threejsproject";
+
 const Projects = () => {
   return (
     <section className="singleproject">
-      <div className="singleprojectwrapper"></div>
+      <Webappproject />
+      <Threejsproject />
     </section>
   );
 };

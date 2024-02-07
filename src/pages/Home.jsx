@@ -7,7 +7,8 @@ import Sky from "../models/Sky";
 import Plane from "../models/Plane";
 import HomeInfo from "../components/HomeInfo";
 import Guide from "../components/Guide";
-import { Helmet } from "react-helmet";
+
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const [currentStage, setCurrentStage] = useState(1);
@@ -51,6 +52,12 @@ const Home = () => {
   return (
     <>
       <section className="w-full h-screen relative">
+        <Helmet>
+          <title>Threejs Developer | 3D Web Developement</title>
+          <meta name="description" content="3D Web Developement" />
+          <link rel="canonical" href="https://dilhancodes.dev" />
+          {/* Add other SEO-related tags here */}
+        </Helmet>
         <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
           {currentStage && <HomeInfo currentStage={currentStage} />}
         </div>

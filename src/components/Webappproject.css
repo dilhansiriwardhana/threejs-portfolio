@@ -1,0 +1,190 @@
+.webapp {
+    background: #150c21;
+    color: #fff;
+    padding-bottom: 16vh;
+    padding-top: 8vh;
+    padding-left: 26px;
+    padding-right: 26px;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.webappcontainer {
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16vh;
+}
+
+.wrappertitle {
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.wrapperdes {
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 6vh;
+}
+
+.rolewrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.technologies,
+.myrole {
+  flex: 1;
+  margin-right: 1rem; /* Adjust margin as needed */
+}
+
+.technologies h1 {
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.myrole h1 {
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.technologies li {
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    /* padding-bottom: 6vh; */
+}
+
+.myrole p {
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 6vh;
+}
+
+.livelink {
+    padding-bottom: 6vh;
+}
+
+.livelink h1 {
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+.projectpurpose h1 {
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.projectpurpose p {
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 6vh;
+}
+
+.spotlight h1 {
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.spotlight p {
+    padding-top: 32px;
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 6vh;
+}
+
+.webstack h1 {
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.webstack p {
+    padding-top: 32px;
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 6vh;
+}
+
+.currentstatus h1 {
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.currentstatus p {
+    padding-top: 32px;
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 6vh;
+}
+
+
+.lessonslearned h1{
+    font-family: GraphikSemibold;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.lessonslearned p {
+    padding-top: 32px;
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 6vh;
+}
+
+.callus h2 {
+    font-family: GraphikSemibold;
+    font-weight:400;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.callus p {
+    font-family: GraphikRegular;
+    font-size: 1.2rem;
+    color: #adaab2;
+    line-height: 2em;
+    padding-bottom: 3vh;
+}
+
+.emaillink{
+    font-size: 2rem;
+}
