@@ -25,7 +25,7 @@ const Navbar = () => {
       >
         <img className="headerimg" src={logo} alt="" />
       </NavLink>
-
+      <div className=" ml-24 " />
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink
           to="/about"
