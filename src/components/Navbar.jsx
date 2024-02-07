@@ -4,7 +4,9 @@ import useSound from "use-sound";
 
 import click from "../assets/click.mp3";
 
-import logo from "../assets/favicon.ico";
+import logo from "../assets/logs.png";
+
+import "./Navbar.css";
 
 const Navbar = () => {
   const soundUrl = click;
@@ -19,9 +21,9 @@ const Navbar = () => {
     <header className="header w-full text-newWhite-500 ">
       <NavLink
         to="/"
-        className="w-10 h-10 rounded-lg  items-center justify-center flex font-bold "
+        className=" h-10 rounded-lg  items-center justify-center flex font-bold "
       >
-        <img src={logo} alt="" />
+        <img className="headerimg" src={logo} alt="" />
       </NavLink>
 
       <nav className="flex text-lg gap-7 font-medium">
