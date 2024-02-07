@@ -188,3 +188,28 @@
 .emaillink{
     font-size: 2rem;
 }
+
+@media (max-width: 600px) {
+    .webappcontainer {
+        width: 100%;
+        padding-top: 32px;
+    }
+    .rolewrapper {
+        display: block;
+    }
+    .livelink a {
+        text-align: center;
+    }
+    .currentstatus h1 {
+        margin-bottom: 0px;
+    }
+    .lessonslearned h1 {
+        margin-bottom: 0px;
+    }
+    .emaillink {
+        font-size: 1rem;
+    }
+    .myrole h1 {
+        margin-top: 32px;
+    }
+}
