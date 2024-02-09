@@ -36,7 +36,11 @@ const About = () => {
     <>
       <Helmet>
         {/* Add JSON-LD script for sitename structured data */}
-        <title>About me | Get Your 3D Website </title>
+        <title>About me | Threejs Developer </title>
+        <meta
+          name="description"
+          content="Experienced Three.js developer creating immersive 3D experiences. Explore stunning web visuals & interactive designs. Let's bring your ideas to life!"
+        />
       </Helmet>
       <section className="mycontainer">
         <div className="content">
