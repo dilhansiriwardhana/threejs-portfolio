@@ -7,6 +7,7 @@ import ReactGA from "react-ga4";
 import Threejsproject from "./components/Threejsproject";
 import Webappproject from "./components/Webappproject";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Facebook from "./tracking/Facebook";
 
 function App() {
   ReactGA.initialize("G-Q6D7HLC77F");
@@ -17,6 +18,7 @@ function App() {
         <Router>
           <Navbar />
           <Analytics />
+          <Facebook />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
