@@ -147,9 +147,9 @@ const Threejsproject = () => {
                 Feel free to react out if you are looking for a developer , have
                 a question or just want to connect
               </p>
-              <Link className="emaillink" to="mailto:contact@dilhancodes.dev">
+              <a className="emaillink" href="mailto:contact@dilhancodes.dev">
                 contact@dilhancodes.dev
-              </Link>
+              </a>
             </div>
           </div>
         </div>
