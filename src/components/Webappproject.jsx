@@ -15,6 +15,35 @@ const Webappproject = () => {
           name="description"
           content="Seamlessly integrate Three.js for stunning 3D graphics and immersive web experiences. Elevate your website with advanced visualizations."
         />
+        {/* Structured data for Three.js video */}
+        <script type="application/ld+json">
+          {`
+              {
+                "@context": "http://schema.org",
+                "@type": "VideoObject",
+                "name": "Three.js 3D Model Rendering",
+                "description": "Integrating 3D elements into a web application using Three.js, WebGL, and React Three Fiber.",
+                "thumbnailUrl": "/assets/live/iphonerepair.lk.png",
+                "uploadDate": "2024-02-14T08:00:00+08:00",
+                "duration": "PT5M30S",
+                "embedUrl": "${Threejsvideo}"
+              }
+            `}
+        </script>
+        <script type="application/ld+json">
+          {`
+              {
+                "@context": "http://schema.org",
+                "@type": "VideoObject",
+                "name": "Darkmode Implementation",
+                "description": "Implementing dark mode in a web application.",
+                "thumbnailUrl": "/assets/live/iphonerepair.lk.png",
+                "uploadDate": "2024-02-14T08:00:00+08:00",
+                "duration": "PT3M45S",
+                "embedUrl": "${Darkmode}"
+              }
+            `}
+        </script>
       </Helmet>
       <section className="webapp">
         <div className="webappcontainer">
@@ -106,6 +135,7 @@ const Webappproject = () => {
                 width="100%"
                 height="auto"
               />
+
               <p>
                 In my project, I tackled a particularly challenging UI element:
                 integrating 3D elements into a web application. To accomplish
