@@ -28,6 +28,7 @@
     "react-helmet-async": "^2.0.4",
     "react-player": "^2.14.1",
     "react-router-dom": "^6.18.0",
+    "react-tiktok-embed": "^1.0.0",
     "react-vertical-timeline-component": "^3.6.0",
     "use-sound": "^4.0.1"
   },

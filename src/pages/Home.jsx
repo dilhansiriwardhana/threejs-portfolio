@@ -4,7 +4,6 @@ import Loader from "../components/Loader";
 import Island from "../models/island";
 import Sky from "../models/Sky";
 
-import Plane from "../models/Plane";
 import HomeInfo from "../components/HomeInfo";
 import Guide from "../components/Guide";
 
@@ -47,8 +46,6 @@ const Home = () => {
   const [islandScale, islandPosition, islandRotation] =
     adjustIslandForScreenSize();
 
-  const [planeScale, planePosition] = adjustPlaneForScreenSize();
-
   return (
     <>
       <section className="w-full h-screen relative">
@@ -86,12 +83,6 @@ const Home = () => {
               rotation={islandRotation}
               isRotating={isRotating}
               setIsRotating={setIsRotating}
-            />
-            <Plane
-              scale={planeScale}
-              position={planePosition}
-              isRotating={isRotating}
-              rotation={[0, 20, 0]}
             />
           </Suspense>
         </Canvas>
