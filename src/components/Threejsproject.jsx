@@ -15,6 +15,35 @@ const Threejsproject = () => {
           name="description"
           content="Seamlessly integrate Three.js for stunning 3D graphics and immersive web experiences. Elevate your website with advanced visualizations."
         />
+        {/* Structured data for Three.js video */}
+        <script type="application/ld+json">
+          {`
+              {
+                "@context": "http://schema.org",
+                "@type": "VideoObject",
+                "name": "Three.js 3D Portfolio Experience",
+                "description": "Integrating 3D elements into a web application using Three.js, WebGL, and React Three Fiber.",
+                "thumbnailUrl": "/assets/dilhancodes.png",
+                "uploadDate": "2024-02-14T08:00:00+08:00",
+                "duration": "PT5M30S",
+                "embedUrl": "${threejsportfolio}"
+              }
+            `}
+        </script>
+        <script type="application/ld+json">
+          {`
+              {
+                "@context": "http://schema.org",
+                "@type": "VideoObject",
+                "name": "Three.js 3D Smooth Animations",
+                "description": "Integrating 3D elements into a web application using Three.js, WebGL, and React Three Fiber.",
+                "thumbnailUrl": "/assets/dilhancodes.png",
+                "uploadDate": "2024-02-14T08:00:00+08:00",
+                "duration": "PT5M30S",
+                "embedUrl": "${fox}"
+              }
+            `}
+        </script>
       </Helmet>
       <section className="webapp">
         <div className="webappcontainer">
