@@ -66,6 +66,7 @@ const About = () => {
               <a
                 className="link twitter"
                 href="https://twitter.com/dilhancodes"
+                target="_blank"
               >
                 <span className="twitter-logo">
                   <svg
@@ -89,6 +90,7 @@ const About = () => {
               <a
                 className="link github"
                 href="https://github.com/dilhansiriwardhana"
+                target="_blank"
               >
                 <span className="github-logo">
                   <svg
@@ -112,6 +114,7 @@ const About = () => {
               <a
                 className="link linkedin"
                 href="https://linkedin.com/in/dilhan-siriwardhana/"
+                target="_blank"
               >
                 <span className="linkedin-logo">
                   <svg
@@ -137,6 +140,7 @@ const About = () => {
               <a
                 className="link youtube"
                 href="https://www.youtube.com/c/techhaliya"
+                target="_blank"
               >
                 <span className="youtube-logo">
                   <svg
@@ -159,7 +163,11 @@ const About = () => {
                   subscribers
                 </span>
               </a>
-              <a className="link medium" href="https://medium.com/@dilhancodes">
+              <a
+                className="link medium"
+                href="https://medium.com/@dilhancodes"
+                target="_blank"
+              >
                 <span className="medium-logo">
                   <svg
                     width="40px"
@@ -186,6 +194,7 @@ const About = () => {
               <a
                 className="link instagram"
                 href="https://www.instagram.com/dilhancodes"
+                target="_blank"
               >
                 <span className="instagram-logo">
                   <svg
@@ -211,6 +220,7 @@ const About = () => {
               <a
                 className="link tiktok"
                 href="https://www.tiktok.com/@dilhancodes"
+                target="_blank"
               >
                 <span className="tiktok-logo">
                   <svg
