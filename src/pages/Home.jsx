@@ -3,10 +3,8 @@ import { useState, Suspense, useEffect, useRef } from "react";
 import Loader from "../components/Loader";
 import Island from "../models/island";
 import Sky from "../models/Sky";
-
 import HomeInfo from "../components/HomeInfo";
 import Guide from "../components/Guide";
-
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
