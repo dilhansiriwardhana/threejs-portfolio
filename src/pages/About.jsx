@@ -213,7 +213,7 @@ const About = () => {
                   </svg>
                 </span>
                 <span className="bubble">
-                  <span className="strong">18+</span>
+                  <span className="strong">30+</span>
                   Followers
                 </span>
               </a>
@@ -239,7 +239,7 @@ const About = () => {
                   </svg>
                 </span>
                 <span className="bubble">
-                  <span className="strong">10+</span>
+                  <span className="strong">177+</span>
                   Followers
                 </span>
               </a>
